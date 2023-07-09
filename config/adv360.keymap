@@ -44,8 +44,8 @@
       bindings = <
         &kp F1 &kp F2    &kp F3     &kp F4     &kp F5    &kp F6    &tog 1                                           &mo 3 &kp F7     &kp F8    &kp F9           &kp F10   &kp F11   &kp F12
         &trans &kp EXCL  &kp AT     &kp HASH   &kp DLLR  &kp PRCNT &none                                            &none &trans     &trans    &trans           &trans    &trans    &trans
-        &trans &kp PLUS  &kp PIPE   &kp UNDER  &kp EQUAL &kp LBRC   &none    &trans &trans &trans &trans            &none &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
-        &trans &kp MINUS &kp BSLH   &kp LPAR   &kp DQT  &kp RBRC                      &trans &trans                       &kp LGUI  &kp HOME    &kp END           &trans    &trans    &trans
+        &trans &kp MINUS &kp PIPE   &kp UNDER  &kp EQUAL &kp LBRC   &none    &trans &trans &trans &trans            &none &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
+        &trans &kp PLUS  &kp BSLH   &kp LPAR   &kp DQT  &kp RBRC                      &trans &trans                       &kp LGUI  &kp HOME    &kp END           &trans    &trans    &trans
         &trans &trans    &trans     &kp RG(LEFT) &kp RG(RIGHT)                  &trans &trans &trans &trans &trans &trans                        &kp RG(UP) &kp RG(DOWN)          &kp LBRC  &kp RBRC  &trans
       >;
     };
