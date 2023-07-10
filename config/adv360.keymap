@@ -26,25 +26,25 @@
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp G  &none                                                            &none &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
-        &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp D  &none           &kp LCTRL &kp LALT &kp CAPS  &kp RCTRL           &none &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
+        &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp D  &kp DEL           &kp LCTRL &kp LALT &kp CAPS  &kp RCTRL           &none &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &kp LGUI     &kp GRAVE &kp DEL &kp LEFT &kp RIGHT                &kp BSPC &kp ENTER &kp END  &kp PG_DN &mo 2 &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &kp LGUI
+        &kp LGUI     &kp GRAVE &kp TAB &kp LEFT &kp RIGHT                &kp BSPC &kp ENTER &kp END  &kp PG_DN &mo 2 &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &kp LGUI
       >;
     };
     keypad {
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_MINUS    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp CAPS  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
+        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp DEL           &kp LCTRL &kp LALT &kp CAPS  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_ENTER    &kp RSHFT
-        &kp LGUI    &kp GRAVE &kp DEL &kp LEFT &kp RIGHT               &kp BSPC &kp ENTER   &kp END  &kp PG_DN &mo 2 &kp KP_N0              &kp UP &kp DOWN     &kp KP_DOT    &kp RBKT        &kp LGUI
+        &kp LGUI  &kp GRAVE &kp TAB &kp LEFT &kp RIGHT               &kp BSPC &kp ENTER   &kp END  &kp PG_DN &mo 2 &kp KP_N0              &kp UP &kp DOWN     &kp KP_DOT    &kp RBKT        &kp LGUI
       >;
     };
     fn {
       bindings = <
         &kp F1 &kp F2    &kp F3     &kp F4     &kp F5    &kp F6    &tog 1                                           &mo 3 &kp F7     &kp F8    &kp F9           &kp F10   &kp F11   &kp F12
         &trans &kp EXCL  &kp AT     &kp HASH   &kp DLLR  &kp PRCNT &none                                            &none &trans     &trans    &trans           &trans    &trans    &trans
-        &trans &kp MINUS &kp PIPE   &kp UNDER  &kp EQUAL &kp LBRC   &none    &trans &trans &trans &trans            &none &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
+        &trans &kp MINUS &kp PIPE   &kp UNDER  &kp EQUAL &kp LBRC   &kp DEL    &trans &trans &trans &trans            &none &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
         &trans &kp PLUS  &kp BSLH   &kp DQT   &kp COLON  &kp RBRC                      &trans &trans                       &trans     &kp HOME  &kp END           &trans    &trans    &trans
         &trans &trans    &trans     &kp RG(LEFT) &kp RG(RIGHT)                  &trans &trans &trans &trans &trans &trans                        &kp RG(UP) &kp RG(DOWN)          &kp LBRC  &kp RBRC  &trans
       >;
