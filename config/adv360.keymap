@@ -28,7 +28,7 @@
         &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp G  &none                                                            &none &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
         &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp D  &kp DEL           &kp LCTRL &kp LALT &kp CAPS  &kp RCTRL           &none &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &kp LGUI     &kp GRAVE &kp TAB &kp LEFT &kp RIGHT                &kp SPACE &kp ENTER &kp END  &kp PG_DN &mo 2 &kp BSPC              &kp UP &kp DOWN  &kp LBKT &kp RBKT &kp LGUI
+        &kp LGUI     &kp GRAVE &kp TAB &kp LEFT &kp RIGHT               &kp BSPC &kp SPACE  &kp END  &kp PG_DN &mo 2   &kp ENTER            &kp UP &kp DOWN  &kp LBKT &kp RBKT &kp LGUI
       >;
     };
     keypad {
@@ -37,7 +37,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_MINUS    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp DEL           &kp LCTRL &kp LALT &kp CAPS  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_ENTER    &kp RSHFT
-        &kp LGUI  &kp GRAVE &kp TAB &kp LEFT &kp RIGHT               &kp SPACE  &kp ENTER   &kp END  &kp PG_DN &mo 2 &kp KP_N0              &kp UP &kp DOWN     &kp KP_DOT    &kp RBKT        &kp LGUI
+        &kp LGUI  &kp GRAVE &kp TAB &kp LEFT &kp RIGHT                &kp BSPC &kp SPACE   &kp END  &kp PG_DN &mo 2 &kp KP_N0              &kp UP &kp DOWN     &kp KP_DOT    &kp RBKT        &kp LGUI
       >;
     };
     fn {
